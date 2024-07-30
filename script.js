@@ -18,7 +18,6 @@ const numerals = [
 ];
 
 input.addEventListener("keydown",(e)=>{
-    output.style.visibility="visible";
     if(e.key === "Enter") {
       convertBtn.click();
     }
